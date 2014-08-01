@@ -1,5 +1,17 @@
-Please make the following changes before compiling my source files for Pintos
+The project aims to pass all ( and only) the tests for Virtual memory and Memory Mapping. Currently it passes only the following tests.
 
-1) Add vm to KERNEL_SUBDIRS in file userprog/Make.vars
-2) Uncomment the 4 lines mentioned in file filesys/Make.vars
+tests/vm/pt-grow-stack
+tests/vm/pt-grow-pusha
+tests/vm/pt-big-stk-obj
+tests/vm/pt-write-code2
+tests/vm/pt-grow-stk-sc
+tests/vm/page-linear
 
+tests/vm/mmap-read
+tests/vm/mmap-close
+tests/vm/mmap-twice
+tests/vm/mmap-shuffle
+tests/vm/mmap-clean
+tests/vm/mmap-misalign
+tests/vm/mmap-null
+tests/vm/mmap-remove
